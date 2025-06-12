@@ -1,4 +1,4 @@
-if not (_G.isKeyVerified and _G.isKeyVerified()) then
+if not _G.keyVerified then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "ScriptHub",
         Text = "❌ Please verify your key first.",
