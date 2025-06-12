@@ -30,7 +30,7 @@ local function loadGameScript()
         })
         return
     end
-    local url = "https://raw.githubusercontent.com/kintsugiscripts/konglomerate/main/scripts/"..scriptName
+    local url = "https://raw.githubusercontent.com/kintsugiscripts/konglomerate/main/"..scriptName
     local success, err = pcall(function()
         loadstring(game:HttpGet(url))()
     end)
